@@ -1,9 +1,13 @@
 <template>
-  
+  <Carousel />
 </template>
 
 <script>
+import Carousel from "../components/Carousel.vue";
 export default {
-  name: 'IndexPage'
-}
+  name: "IndexPage",
+  components: {
+    Carousel,
+  },
+};
 </script>
