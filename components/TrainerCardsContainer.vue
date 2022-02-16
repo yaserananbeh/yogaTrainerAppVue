@@ -7,3 +7,10 @@
     </v-row>
   </v-container>
 </template>
+<script>
+export default {
+  data() {
+    return { counter: this.$store.state.counter };
+  },
+};
+</script>
