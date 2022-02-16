@@ -1,7 +1,9 @@
 <template>
   <v-card>
     <v-toolbar color="cyan" dark flat>
-      <v-toolbar-title>Yoga Trainer</v-toolbar-title>
+      <v-toolbar-title
+        ><router-link to="/">Yoga Trainer </router-link></v-toolbar-title
+      >
       <v-spacer></v-spacer>
 
       <v-tab v-for="item in items" :key="item">
