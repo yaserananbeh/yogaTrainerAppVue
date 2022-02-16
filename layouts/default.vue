@@ -1,8 +1,10 @@
 <template>
   <div>
-    <NavBar />
-    <Nuxt />
-    <Footer />
+    <v-app>
+      <NavBar />
+      <Nuxt />
+      <Footer />
+    </v-app>
   </div>
 </template>
 
