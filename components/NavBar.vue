@@ -6,7 +6,7 @@
       >
       <v-spacer></v-spacer>
 
-      <v-tab v-for="item in items" :key="item">
+      <v-tab v-for="item in items" :key="item.navTitle">
         <router-link :to="item.targetRoute">
           {{ item.navTitle }}
         </router-link>
